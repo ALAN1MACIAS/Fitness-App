@@ -36,12 +36,12 @@ export class ExercisesNewContainer extends Component {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
+          'Access-Control-Allow-Origin': '*',
           'Content-Type': 'application/json'
         },
         body: JSON.stringify(this.state.form)
       }
-      let res = await fetch(`${url}/exercises`, config)
-      let json = await res.json()
+      await fetch(`${url}/fitnessregs`, config)
 
       this.setState({
         loading: false

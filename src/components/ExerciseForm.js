@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 const ExercisesForm = ({ onChange, onSubmit, form }) => (
   <div className='container'>
@@ -44,10 +44,10 @@ const ExercisesForm = ({ onChange, onSubmit, form }) => (
           <input
               type='color'
               className='form-control'
-              placeholder='leftColor'
-              name='leftColor'
+              placeholder='leftcolor'
+              name='leftcolor'
               onChange={onChange}
-              value={form.leftColor}
+              value={form.leftcolor}
           />
         </div>
       </div>
@@ -56,10 +56,10 @@ const ExercisesForm = ({ onChange, onSubmit, form }) => (
           <input
               type='color'
               className='form-control'
-              placeholder='rightColor'
-              name='rightColor'
+              placeholder='rightcolor'
+              name='rightcolor'
               onChange={onChange}
-              value={form.rightColor}
+              value={form.rightcolor}
           />
         </div>
       </div>

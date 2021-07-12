@@ -32,3 +32,12 @@
   margin-bottom: 80px;
   height: 60px;
 }
+
+.bxs-trash {
+  color: #fff;
+  cursor: pointer;
+}
+
+.bxs-trash:hover {
+  color: #b1b1b1;
+}

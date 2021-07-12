@@ -6,7 +6,8 @@ import Exercises from './Exercises'
 import url from './config'
 
 const ExercisesContainer = () => {
-  const { data, loading, error } = useFetch(`${url}/exercises`)
+  const { data, loading, error } = useFetch(`${url}/fitnessregs`)
+
   if (loading)
       return <Loading />
   if (error)
